@@ -18,4 +18,7 @@ Currency Converter is a web application that allows users to convert currencies 
 - CSS
 - JavaScript
 
+## Demo
+[![Currency Converter Demo](./Demo_images/Screenshot%202024-01-12%20183759.png)](./)
 
+[![Currency Converter Demo](./Demo_images/Screenshot%202024-01-12%20183832.png)](./)
