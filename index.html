@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter 💶</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="body-container">
+        <h1 class="heading">Conrrency Converter</h1>
+        <div class="form-container">
+            <form class="form" action="">
+                <div class="amount-section">
+                    <label for="amount">Enter Amount</label>
+                    <input type="text" id="amount" placeholder="  Amount..." autocomplete="off">
+                </div>
+                <div class="conversion-country-section">
+                    <div class="from-to">
+                        <p>From</p>
+                        <p>To</p>
+                    </div>
+                    <div class="country-select">
+                        <div class="1st country">
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                            <select id="from" name="from">
+                                <!-- <option value="USD" selected>USD</option> -->
+                            </select>
+                        </div>
+                        <div class="convert">
+                            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/quphllfw.json"
+                                trigger="in"
+                                delay="1000"
+                                state="in-reveal"
+                                colors="primary:#4030e8"
+                                style="width:250px;height:250px; width:80px; height: 50px;">
+                            </lord-icon>
+                        </div>
+                        <div class="2nd country">
+                            <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                            <select id="to" name="to">
+                                <!-- <option value="INR" selected>INR</option> -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="result">
+                    <p>1 USD = <span>80 INR</span></p>
+                </div>
+                <button class="submit-button">Get Exchange Rate</button>
+            </form>
+        </div>
+    </section>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
